@@ -1,0 +1,11 @@
+@import 'styles/_variaveis.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  background-color: #011423;
+  font-family: 'Inter', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}

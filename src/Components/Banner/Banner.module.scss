@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.banner{
+	background-image: url(../../assets/banner.jpg);
+	background-position: center;
+	height: 550px;
+	padding: 1.5rem 0 0 0;
+	width: 100%;
+}
+.container{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+	&__textos{
+		margin-right: 3rem;
+	}
+	&__nome{
+		color: white;
+		font-family: 'Lalezar', cursive;
+		font-size: 5rem;
+	}
+	&__dev{
+		color: white;
+		font-family: 'Inter', sans-serif;
+		font-size: 1.25rem;
+	}
+}

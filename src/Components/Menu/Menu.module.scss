@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    &__titulo{
+        color: white;
+        font-family: 'Khand', sans-serif;
+        font-size: 2rem;
+    }
+    &__lista{
+        list-style: none;
+        display: flex;
+    }
+    &__item ,&__itemPrimeiro{
+        font-family: 'Khand', sans-serif;
+        font-size: 1.25rem;
+        margin-right: 2rem;
+        color: white;
+        text-decoration: none;
+    }
+    &__item:hover{
+        color: #156CBD;
+        border-bottom: 2px solid #156CBD;
+    }
+    &__itemPrimeiro{
+        padding: 0 0.3rem;
+        background-color: white;
+        color: #041423;
+        border-radius: 3px;
+    }
+    &__itemPrimeiro:hover{
+        background-color: #156CBD;
+        color: white;
+    }
+}

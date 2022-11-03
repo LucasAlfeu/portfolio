@@ -1,0 +1,19 @@
+.projetos{
+    margin-top: 6rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__titulo{
+        font-size: 100px;
+        text-align: center;
+    }
+    &__texto{
+        width: 800px;
+        text-align: justify;
+        margin-bottom: 3rem;
+        margin-top: 6rem;
+        line-height: 20px;
+    }
+}

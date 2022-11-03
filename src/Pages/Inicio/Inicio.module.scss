@@ -1,0 +1,23 @@
+.principal{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+    margin-top: 4rem;
+    text-align: center;
+    &__texto{
+        color: white;
+        width: 60vw;
+    }
+    &__foto{
+        border-radius: 100px;
+        height: 150px;
+        margin-top: 2rem;
+        width: 150px;
+    }
+    &__informacao{
+        color: white;
+        margin-top: 2rem;
+    }
+}
