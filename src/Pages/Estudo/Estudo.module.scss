@@ -1,0 +1,62 @@
+.estudo {    
+    color: white;
+    margin: 0 250px;
+    &__voltar{
+        background: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 1.75rem;
+        margin: 2rem 0;
+    }
+    &__voltar:hover {
+        color: #0566B0;
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__imagem{
+        width: 1080px;
+    }
+    &__caixa{
+        margin-top: 3.75rem;
+        text-align: center;
+    }
+    &__titulo{
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+    &__categoria{
+        color: #ADB017;
+        margin: 1rem 0;
+    }
+    &__caixaLink{
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+    &__visita{
+        margin: 1.5rem 0;
+    }
+    &__links{        
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    &__site{
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+        background-color: #0566B0;
+        padding: 0.3rem 1rem;
+    }
+    &__codigo{
+        color: white;
+        margin-left: 1rem;
+        text-decoration: none;
+        background-color: #0566B0;
+        padding: 0.3rem 1rem;
+    }
+}

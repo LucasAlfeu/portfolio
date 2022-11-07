@@ -37,6 +37,7 @@
         font-weight: 700;
     }
     &__link{
+        border: none;
         border-radius: 5px;
         background-color: #0566B0;
         color: white;
@@ -51,4 +52,17 @@
         background-color: #04487D;
     }
     
+}
+
+.filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__texto{
+        font-size: 20px;
+        margin-right: 2rem;
+    }
+    &__select{
+        width: 130px;
+    }
 }

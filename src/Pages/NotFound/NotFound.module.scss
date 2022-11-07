@@ -1,0 +1,14 @@
+.notFound{
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    &__imagem{
+        width: 600px;
+    }
+    &__texto{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 3rem;
+    }
+}
