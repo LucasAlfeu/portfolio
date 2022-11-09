@@ -4,16 +4,19 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Projetos from 'Pages/Projetos';
 import Banner from 'Components/Banner';
 import Estudo from 'Pages/Estudo';
+import style from 'styles/Background.module.scss';
 
 export default function AppRoute() {
 	return (
-		<BrowserRouter>
-			<Banner />
-			<Routes>
-				<Route path='/' element={<Inicio />} />
-				<Route path='/projetos' element={<Projetos />} />
-				<Route path='/estudo/:id' element={<Estudo />} />
-			</Routes>
-		</BrowserRouter>
+		<div className={style.container}>
+			<BrowserRouter>
+				<Banner />
+				<Routes>
+					<Route path='/' element={<Inicio />} />
+					<Route path='/projetos' element={<Projetos />} />
+					<Route path='/estudo/:id' element={<Estudo />} />
+				</Routes>
+			</BrowserRouter>
+		</div>
 	);
 }
