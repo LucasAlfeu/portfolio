@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
     line-height: 1.5rem;
     margin-top: 4rem;
     text-align: center;
@@ -20,5 +19,6 @@
     &__informacao{
         color: white;
         margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 }
