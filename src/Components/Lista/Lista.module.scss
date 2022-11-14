@@ -54,15 +54,3 @@
     
 }
 
-.filtro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &__texto{
-        font-size: 20px;
-        margin-right: 2rem;
-    }
-    &__select{
-        width: 130px;
-    }
-}

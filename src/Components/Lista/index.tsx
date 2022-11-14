@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { listaDeProjetos } from 'data/portifolio';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from './Lista.module.scss';
 import { Projetos } from 'Types/Projetos';
+import Filtros from './Filtros';
+import { listaDeProjetos } from 'data/portifolio';
 
 export default function Lista() {
 	const [projetos, setProjetos] = useState(listaDeProjetos);
@@ -12,43 +13,20 @@ export default function Lista() {
 		navigate(`/estudo/${estudo.id}`, { state: { estudo }, replace: true });
 	};
 
+	const filtrarLista = (e: React.ChangeEvent<HTMLSelectElement>) => {
+		if (e.target.value === 'semFiltro') {
+			const listaNaoFiltrada = listaDeProjetos;
+			setProjetos([...listaNaoFiltrada]);
+		} else {
+			const listaFiltrada = listaDeProjetos.filter(projetos => projetos.categoria === e.target.value);
+			setProjetos([...listaFiltrada]);
+		}
+
+	};
+
 	return (
 		<section>
-			<div className={styles.filtro}>
-				<p className={styles.filtro__texto}>Filtrar por:</p>
-				<select className={styles.filtro__select}>
-					<option
-						className={styles.filtro__option}
-						onClick={e => console.log(e.target)}
-						value="semFiltro"
-					>
-						Sem Filtro
-					</option>
-					<option
-						className={styles.filtro__option}
-						value="html"
-					>HTML
-					</option>
-					<option
-						className={styles.filtro__option}
-						value="javascript"
-					>
-						JavaScript
-					</option>
-					<option
-						className={styles.filtro__option}
-						value="typescript"
-					>
-						TypeScript
-					</option>
-					<option
-						className={styles.filtro__option}
-						value="react"
-					>
-						React
-					</option>
-				</select>
-			</div>
+			<Filtros filtrarLista={filtrarLista} />
 			<ul className={styles.lista}>
 				{projetos.map(projeto =>
 					<li

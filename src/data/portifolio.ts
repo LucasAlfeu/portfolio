@@ -86,5 +86,16 @@ export const listaDeProjetos = [
 		categoria: 'HTML',
 		codigo: 'https://github.com/LucasAlfeu/Loopstudio',
 		busca: 'loopstudio'
+	},
+	{
+		nome: 'Casa Verde',
+		descricao: 'Projeto final da formação de React com TypeScript. Coloquei em prática todos meus conhecimentos adquiridos na formação. Um site para vendas de plantas com ordenamente da lista de produtos e também uma assinatura de um NewsLetter.',
+		resumo: 'Challenge do curso de dormação React com TypeScript.',
+		link: 'https://casa-verde-lilac.vercel.app/',
+		imagem: '/portifolioImagem/casaVerde.png',
+		id: 8,
+		categoria: 'Challenge',
+		codigo: 'https://github.com/LucasAlfeu/casa-verde',
+		busca: 'casa verde'
 	}
 ];
