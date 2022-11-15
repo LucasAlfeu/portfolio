@@ -10,7 +10,7 @@ Esse projeto é meu portifólio, criei com o intuito para reunir em um só lugar
 
 Tentei criar uma espécie de vitrine mostrando um pouco da minha evolução desde as minhas primeiras LandingPages até projetos de React fazendo requisições API e listas dinânimas.
 
-##Layout
+## Layout
 
 ![web](https://github.com/LucasAlfeu/portifolio/blob/main/public/portifolioImagem/portifolio.png)
 
@@ -29,4 +29,24 @@ Tentei criar uma espécie de vitrine mostrando um pouco da minha evolução desd
 
 # Como executar
 
-## Pré-requisitos
+## Pré-requisitos npm/yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/LucasAlfeu/casa-verde.git
+
+# entrar na pasta casa verde
+cd casa-verde
+
+# instalar as depedências
+npm install
+
+# iniciar o projeto
+npm start
+```
+
+# Autor
+
+Lucas Alfeu da Silva Oliveira
+
+https://www.linkedin.com/in/lucas-alfeu-08b525235/
