@@ -33,10 +33,10 @@ Tentei criar uma espécie de vitrine mostrando um pouco da minha evolução desd
 
 ```bash
 # clonar repositório
-git clone https://github.com/LucasAlfeu/casa-verde.git
+git clone https://github.com/LucasAlfeu/portifolio.git
 
 # entrar na pasta casa verde
-cd casa-verde
+cd portifolio
 
 # instalar as depedências
 npm install
