@@ -35,7 +35,7 @@ Tentei criar uma espécie de vitrine mostrando um pouco da minha evolução desd
 # clonar repositório
 git clone https://github.com/LucasAlfeu/portifolio.git
 
-# entrar na pasta casa verde
+# entrar na pasta portifolio
 cd portifolio
 
 # instalar as depedências
