@@ -1,0 +1,42 @@
+.sobreMim {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__titulo{
+        margin: 5rem 0 3rem 0;
+        font-size: 4rem;
+    }
+    &__paragrafo{
+        width: 800px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: justify;
+        margin-bottom: 1.5rem;
+    }
+    &__div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        text-align: center;
+        align-items: center;        
+        justify-content: center;
+    }
+    &__contatoTexto{
+        font-size: 2rem;
+
+    }
+    &__lista{
+        list-style: none;
+        display: flex;
+    }
+    &__contato{
+        margin: 1rem;
+    }
+    &__linkeding{        
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

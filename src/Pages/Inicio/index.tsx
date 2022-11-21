@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from 'Components/Banner';
 import styles from './Inicio.module.scss';
 import { ReactComponent as Foto } from 'assets/foto.svg';
 

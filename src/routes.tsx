@@ -5,6 +5,8 @@ import Projetos from 'Pages/Projetos';
 import Banner from 'Components/Banner';
 import Estudo from 'Pages/Estudo';
 import style from 'styles/Background.module.scss';
+import SobreMim from 'Pages/SobreMim';
+import Curriculo from 'Pages/Curriculo';
 
 export default function AppRoute() {
 	return (
@@ -15,6 +17,8 @@ export default function AppRoute() {
 					<Route path='/' element={<Inicio />} />
 					<Route path='/projetos' element={<Projetos />} />
 					<Route path='/estudo/:id' element={<Estudo />} />
+					<Route path='/sobre' element={<SobreMim />} />
+					<Route path='/curriculo' element={<Curriculo />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
