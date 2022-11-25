@@ -31,7 +31,7 @@ Esse projeto é meu portifólio, criei com o intuito para reunir em um só lugar
 # clonar repositório
 git clone https://github.com/LucasAlfeu/portifolio.git
 
-# entrar na pasta casa verde
+# entrar na pasta portifolio
 cd portifolio
 
 # instalar as depedências
