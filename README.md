@@ -1,14 +1,14 @@
-# Portifólio
+# Portfólio
 
 ## Sobre o Projeto
 
 [Confira o Projeto](https://portifolio-eta-rust.vercel.app/)
 
-Esse projeto é meu portifólio, criei com o intuito para reunir em um só lugar alguns dos meus estudos em Front-End e também mais algumas informações sobre mim.  Eu comecei a perceber que faltava organizar tudo num só lugar, principalmente meus projetos de portifólio
+Esse projeto é meu portfólio, criei com o intuito para reunir em um só lugar alguns dos meus estudos em Front-End e também mais algumas informações sobre mim.  Eu comecei a perceber que faltava organizar tudo num só lugar, principalmente meus projetos de portifólio
 
 ## Layout
 
-![Web](https://github.com/LucasAlfeu/portifolio/blob/main/public/portifolioImagem/portifolio.png)
+![Web](https://github.com/LucasAlfeu/portifolio/blob/main/public/portifolioImagem/portfolio.png)
 
 # Tecnologias utilizadas
 
@@ -29,7 +29,7 @@ Esse projeto é meu portifólio, criei com o intuito para reunir em um só lugar
 
 ```bash
 # clonar repositório
-git clone https://github.com/LucasAlfeu/portifolio.git
+git clone https://github.com/LucasAlfeu/portfolio.git
 
 # entrar na pasta portifolio
 cd portifolio
