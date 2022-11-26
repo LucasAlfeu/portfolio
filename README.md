@@ -8,7 +8,7 @@ Esse projeto é meu portfólio, criei com o intuito para reunir em um só lugar 
 
 ## Layout
 
-![Web](https://github.com/LucasAlfeu/portifolio/blob/main/public/portifolioImagem/portfolio.png)
+![Web](https://github.com/LucasAlfeu/portifolio/blob/main/public/portifolioImagem/portifolio.png)
 
 # Tecnologias utilizadas
 
@@ -29,7 +29,7 @@ Esse projeto é meu portfólio, criei com o intuito para reunir em um só lugar 
 
 ```bash
 # clonar repositório
-git clone https://github.com/LucasAlfeu/portfolio.git
+git clone https://github.com/LucasAlfeu/portifolio.git
 
 # entrar na pasta portifolio
 cd portifolio
