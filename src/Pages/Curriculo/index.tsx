@@ -10,7 +10,7 @@ export default function Curriculo() {
 			<Construcao  className={styles.curriculo__imagem} />
 			<p className={styles.curriculo__texto2}>
 				Essa parte do meu portifólio eu ainda estou projetando ao certo como eu quero fazer. 
-				Entretanto caso queira baixar meu currículo <a href='https://drive.google.com/file/d/1yBehQ-WuSOHs9TxzRjFyjVFK9pHiDbss/view?usp=sharing' className={styles.curriculo__link} target='_blank' rel="noreferrer" download={'lucas-curriclun'}>clique aqui</a> .
+				Entretanto caso queira baixar meu currículo <a href='https://drive.google.com/file/d/1yBehQ-WuSOHs9TxzRjFyjVFK9pHiDbss/view?usp=share_link' className={styles.curriculo__link} target='_blank' rel="noreferrer" download={'lucas-curriclun'}>clique aqui</a> .
 			</p>
 			
 		</section>
