@@ -97,5 +97,16 @@ export const listaDeProjetos = [
 		categoria: 'Challenge',
 		codigo: 'https://github.com/LucasAlfeu/casa-verde',
 		busca: 'casa verde'
+	},
+	{
+		nome: 'Adopet',
+		descricao: 'O estudo é sobre um site de adoção de pets facilitando o contato entre quem deseja adotar um pet quem tem algum para adoção. Assim que entrar pela primeira vai ser necessário fazer um cadastro, infelizmente não consegui fazer o deploy da minha api para esse projeto ainda para salvar os dados ainda, entretanto estou salvando localmente os dados por enquanto até eu conseguir colocar minha api no ar. A verificação do nome, email, e senha são feitos com RegEx, a mudança de rotas foi feita utilizando o React Router Dom, atualmente possui 6 rotas, deixarei todas listadas logo abaixo para serem acessadas, na renderização da lista de pets para adoção na página home e também na verificação para ver se os dados cadastrados na tela de login batem eu utilizei o Recoil para gerenciamento do estado e também foi feita a adaptação do site para diferentes telas com layout responsivo utilizando a metodologia do "mobile first".O projeto foi feito utilizando React com TypeScript e foi de um Challange da Alura.',
+		resumo: 'O estudo é sobre um site de adoção de pets.',
+		link: 'https://adopet-six.vercel.app/',
+		imagem: '/portifolioImagem/adopet.png',
+		id: 9,
+		categoria: 'Challenge',
+		codigo: 'https://github.com/LucasAlfeu/Adopet',
+		busca: 'adopet'
 	}
 ];
